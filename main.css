@@ -32,22 +32,22 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* height: fit-content; */
   background: var(--neutral2);
   border-radius: 0.5rem;
-  /* height: 10rem; */
   width: 20rem;
-  padding: 2rem 2rem 2.6rem 2rem;
-  gap: 1rem;
+  padding: 1.7rem 1.8rem 2.7rem 1.8rem;
 }
 
 .card h1 {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
+  letter-spacing: 0.09rem;
   color: var(--primary2);
 }
 
 .card p {
   color: var(--primary1);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .button {
