@@ -34,8 +34,9 @@ body {
   text-align: center;
   background: var(--neutral2);
   border-radius: 0.5rem;
-  width: 19rem;
-  padding: 1.7rem 1.55rem 2.6rem 1.55rem;
+  /* clamp according to divider svg width */
+  width: clamp(300px, 92vw, 19rem);
+  padding: 1.7rem 1.55rem 2.6rem;
 }
 
 .card h1 {
@@ -48,6 +49,7 @@ body {
 
 .card p {
   color: var(--primary1);
+  font-size: 1rem;
   font-weight: 800;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
