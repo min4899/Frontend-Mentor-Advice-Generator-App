@@ -40,12 +40,14 @@ body {
 
 .card h1 {
   font-size: 0.6rem;
+  font-weight: 500;
   letter-spacing: 0.09rem;
   color: var(--primary2);
 }
 
 .card p {
   color: var(--primary1);
+  font-weight: 800;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -54,9 +56,16 @@ body {
   position: absolute;
   display: grid;
   place-items: center;
+  border-width: 0;
   bottom: -1.1rem;
   width: 2.2rem;
   height: 2.2rem;
   border-radius: 50%;
   background: var(--primary2);
+  transition: ease 0.2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1em 0em hsl(150, 100%, 66%);
 }
