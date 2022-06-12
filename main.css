@@ -34,14 +34,15 @@ body {
   text-align: center;
   background: var(--neutral2);
   border-radius: 0.5rem;
-  width: 20rem;
-  padding: 1.7rem 1.8rem 2.7rem 1.8rem;
+  width: 19rem;
+  padding: 1.7rem 1.55rem 2.6rem 1.55rem;
 }
 
 .card h1 {
-  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-size: 0.5rem;
   font-weight: 500;
-  letter-spacing: 0.09rem;
+  letter-spacing: 0.14rem;
   color: var(--primary2);
 }
 
