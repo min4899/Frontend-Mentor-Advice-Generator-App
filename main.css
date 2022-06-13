@@ -27,6 +27,7 @@ body {
 }
 
 .card {
+  z-index: 1;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -71,4 +72,18 @@ body {
 .button:hover {
   cursor: pointer;
   box-shadow: 0 0 1em 0em hsl(150, 100%, 66%);
+}
+
+.attribution {
+  z-index: 0;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  color: var(--primary1);
+  font-size: 15px;
+}
+
+.attribution a {
+  color: var(--primary2);
+  font-size: 15px;
 }
